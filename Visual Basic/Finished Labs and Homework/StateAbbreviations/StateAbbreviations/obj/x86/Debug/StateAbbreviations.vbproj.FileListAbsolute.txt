@@ -1,0 +1,11 @@
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\StateAbbreviations\StateAbbreviations\bin\Debug\StateAbbreviations.exe
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\StateAbbreviations\StateAbbreviations\bin\Debug\StateAbbreviations.pdb
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\StateAbbreviations\StateAbbreviations\bin\Debug\StateAbbreviations.xml
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\StateAbbreviations\StateAbbreviations\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\StateAbbreviations\StateAbbreviations\obj\x86\Debug\WindowsApplication1.frmStateAbbreviations.resources
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\StateAbbreviations\StateAbbreviations\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\StateAbbreviations\StateAbbreviations\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\StateAbbreviations\StateAbbreviations\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\StateAbbreviations\StateAbbreviations\obj\x86\Debug\StateAbbreviations.exe
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\StateAbbreviations\StateAbbreviations\obj\x86\Debug\StateAbbreviations.xml
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\StateAbbreviations\StateAbbreviations\obj\x86\Debug\StateAbbreviations.pdb

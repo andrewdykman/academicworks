@@ -1,0 +1,11 @@
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\First Federal1\bin\First Federal.exe
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\First Federal1\bin\First Federal.pdb
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\First Federal1\bin\First Federal.xml
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\First Federal1\obj\Debug\ResolveAssemblyReference.cache
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\First Federal1\obj\Debug\First_Federal.Form1.resources
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\First Federal1\obj\Debug\First_Federal.Resources.resources
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\First Federal1\obj\Debug\ResGen.read.1.tlog
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\First Federal1\obj\Debug\ResGen.write.1.tlog
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\First Federal1\obj\Debug\First Federal.exe
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\First Federal1\obj\Debug\First Federal.xml
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\First Federal1\obj\Debug\First Federal.pdb

@@ -1,0 +1,146 @@
+<!-- Andrew Dykman, Client-Side Scripting Labs for Week 2 -->
+<!-- "Evil" Eric's Saturday Class :D -->
+
+<html>
+<head><title>Andrew Dykman, Lab Week 2</title></head>
+<body>
+<h1>Andrew Dykman, Client Side Scripting: Lab Week 2</h1>
+<br/>
+<h2>Task 1 - Enter Names, Sort in Descending Alphabetical Order</h2>
+<script type="text/javascript">
+
+// Beginning of Script
+
+// Request Names from the User
+
+var usernames=window.prompt("Please enter a list of names, each seperated by a space: ")
+
+// Split the Names Using Space as a Deliminator
+
+var namesarray = usernames.split(" ");
+totalarraylength = namesarray.length
+
+// Make Output Look Organized / Neat and Label It
+
+document.write("===========================<br/>");
+document.write("*** Unsorted Name Array *** <br/>");
+document.write("===========================<br/><br/>");
+
+/* Display the Names One by One, Going One by
+One for Each Name Entered in the Array */
+
+for (arraycounter=0;arraycounter<totalarraylength;arraycounter++)
+{
+document.write(namesarray[arraycounter], "<br/>");
+}
+
+// Put Some Spaces Between Array Listings (Makes it Look More Organized)
+
+document.write("<br/><br/>");
+
+// Make Output Look Organized / Neat and Label It
+
+document.write("=========================<br/>");
+document.write("*** Sorted Name Array ***<br/>");
+document.write("=========================<br/><br/>");
+
+// Sort the Array in Alphabetically Descending Order
+
+namesarray.sort();
+
+/* Display the Names One by One, Going One by
+One for Each Name Entered in the Array */
+
+for (arraycounter=0;arraycounter<totalarraylength;arraycounter++)
+{
+document.write(namesarray[arraycounter], "<br/>");
+}
+
+// End of Script
+
+</script>
+<br/>
+<h2>Task 2 - Enter Names, Choose Ascending / Descending Alphabetical Order and Sort</h2>
+<script type="text/javascript">
+
+// Beginning of Script
+
+// Request Names from the User
+
+var usernames=window.prompt("Please enter a list of names, each seperated by a space: ")
+
+// Split the Names Using Space as a Deliminator
+
+var namesarray = usernames.split(" ");
+totalarraylength = namesarray.length
+
+// Make Output Look Organized / Neat and Label It
+
+document.write("===========================<br/>");
+document.write("*** Unsorted Name Array *** <br/>");
+document.write("===========================<br/><br/>");
+
+/* Display the Names One by One, Going One by
+One for Each Name Entered in the Array */
+
+for (arraycounter=0;arraycounter<totalarraylength;arraycounter++)
+{
+document.write(namesarray[arraycounter], "<br/>");
+}
+
+// Prompt User for Sort Order
+
+var sortorder=window.prompt("Would you like to sort by 'ascending' or 'descending' order? (Please use lower-case)")
+
+
+// Put Some Spaces Between Array Listings (Makes it Look More Organized)
+
+document.write("<br/><br/>");
+
+/* Create a Function Called decOrder to Arrange the Array of Names in Descending Order
+In the Case that is What the User Wants */
+
+function decOrder()
+{
+namesarray.sort();
+namesarray.reverse();
+}
+
+// Make Output Look Organized / Neat and Label It
+
+document.write("=========================<br/>");
+document.write("*** Sorted Name Array ***<br/>");
+document.write("=========================<br/><br/>");
+
+// Use an If, Else-If, Else Statement to Determine What to Display on the Screen
+
+if (sortorder == "ascending")
+  {
+
+// Sort the Names Array Alphabetically and Write It Out
+
+namesarray.sort();
+  for (arraycounter=0;arraycounter<totalarraylength;arraycounter++)
+{
+document.write(namesarray[arraycounter], "<br/>");
+}
+  }
+
+else if (sortorder == "descending")
+  {
+decOrder();
+  for (arraycounter=0;arraycounter<totalarraylength;arraycounter++)
+{
+document.write(namesarray[arraycounter], "<br/>");
+}
+  }
+
+else
+  {
+  document.write("Error: You did not enter ascending or descending.");
+  }
+
+// End of Script
+</script>
+</body>
+</html>

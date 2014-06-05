@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title>Newspaper Registration Form</title>
+        <link rel="stylesheet" href="registration.css" type="text/css" />
+        <script type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1>Newspaper Registration Form</h1>
+        <h2>Customer Information</h2>
+        <form action="" method="post">
+            <table border="0">
+                <tr>
+                    <td valign="top">
+                        <h3>Billing Information</h3>
+                        <p>
+                            Name<br />
+                            <input type="text" name="nameBilling" size="50" /><br/>
+                        </p>
+                        <p>
+                            Address<br />
+                            <input type="text" name="addressBilling" size="50" /><br />
+                        </p>
+                        <p>
+                            City, State, Zip<br />
+                            <input type="text" name="cityBilling" size="34" />
+                            <input type="text" name="stateBilling" size="2" maxlength="2" />
+                            <input type="text" name="zipBilling" size="10" maxlength="5" />
+                        </p>
+                        <p>
+                            <input type="checkbox" />Same Shipping information
+                        </p>
+                    </td>
+                    <td valign="top">
+                        <h3>Shipping Information</h3>
+                        <p>
+                            Name<br />
+                            <input type="text" name="nameShipping" size="50" /><br/>
+                        </p>
+                        <p>
+                            Address<br />
+                            <input type="text" name="addressShipping" size="50" /><br />
+                        </p>
+                        <p>
+                            City, State, Zip<br />
+                            <input type="text" name="cityShipping" size="34" />
+                            <input type="text" name="stateShipping" size="2" maxlength="2" />
+                            <input type="text" name="zipShipping" size="10" maxlength="5" />
+                        </p>
+                    </td>
+                </tr>
+            </table>
+            <p>Telephone</p>
+            <p>
+                (<input type="text" name="area" size="3" maxlength="3" />)
+                <input type="text" name="exchange" size="3" maxlength="3" />
+                <input type="text" name="phone" size="4" maxlength="4" />
+            </p>
+            <p>Enter a password to use to manage your account:</p>
+            <p><input type="password" name="password" size="50" /></p>
+            <p>Enter the password again to confrim it:</p>
+            <p><input type="password" name="passwordConfirm" size="50" /></p>
+            <h3>Delivery Rates</h3>
+            <table border="0">
+                <colgroup align="left" width="100" />
+                <colgroup span="4" align="center" width="100" />
+                <tr>
+                    <th>&nbsp;</th>
+                    <th>4 Weeks</th>
+                    <th>13 Weeks</th>
+                    <th>26 Weeks</th>
+                    <th>52 Weeks</th>
+                </tr>
+                <tr>
+                    <td><strong>Mon-Sat</strong></td>
+                    <td>
+                        <input type="radio" name="delivery" value="12.60" />$12.60
+                    </td>
+                    <td>
+                        <input type="radio" name="delivery" value="40.95" />$40.95
+                    </td>
+                    <td>
+                        <input type="radio" name="delivery" value="81.90" />$81.90
+                    </td>
+                    <td>
+                        <input type="radio" name="delivery" value="156.00" />$156.00
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Every Day</strong></td>
+                    <td>
+                        <input type="radio" name="delivery" value="13.56" />$13.56
+                    </td>
+                    <td>
+                        <input type="radio" name="delivery" value="44.07" />$44.07
+                    </td>
+                    <td>
+                        <input type="radio" name="delivery" value="88.14" />$88.14
+                    </td>
+                    <td>
+                        <input type="radio" name="delivery" value="159.74" />$159.74
+                    </td>
+                </tr>
+            </table>
+            <p>
+                <strong>Sundays Only</strong>
+                <input type="radio" name="sunday" value="weekly" />Bill Me Weekly
+                <input type="radio" name="sunday" value="monthly" />Bill Me Monthly
+            </p>
+            <p>Do you subscribe to any other newspapers?</p>
+            <p>
+                <input type="checkbox" name="newspapers" value="nytimes" />New York Times<br />
+                <input type="checkbox" name="newspapers" value="bostonglobe" />Boston Globe<br />
+                <input type="checkbox" name="newspapers" value="sfchronicle" />San Francisco Chronicle<br />
+                <input type="checkbox" name="newspapers" value="latimes" />Los Angeles Times<br />
+                <input type="checkbox" name="newspapers" value="other" />Other<br />
+            </p>
+            <p>
+                <input type="submit" value="Subscribe" style="color:#ff0000; font-weight: bold;" />
+                <input type="reset" value="Reset" style="color: #ff0000; font-weight: bold;" />
+            </p>
+        </form>
+    </body>
+</html>

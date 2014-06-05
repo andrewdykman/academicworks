@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character>
+    <name>
+        <first>Allianth</first>
+        <last>Lotharian</last>
+    </name>
+    <gender>Male</gender>
+    <age>32</age>
+    <race>Human</race>
+    <background>Like many people, Allianth was born.</background>
+    <abilityScores>
+        <strength>14</strength>
+        <dexterity>10</dexterity>
+        <constitution>16</constitution>
+        <intelligence>10</intelligence>
+        <wisdom>14</wisdom>
+        <charisma>18</charisma>
+    </abilityScores>
+    <alignment>
+        <moral>Lawful</moral>
+        <ethical>Good</ethical>
+    </alignment>
+    <occupation>Paladin</occupation>
+    <level>15</level>
+    <skills/>
+    <feats/>
+</character>

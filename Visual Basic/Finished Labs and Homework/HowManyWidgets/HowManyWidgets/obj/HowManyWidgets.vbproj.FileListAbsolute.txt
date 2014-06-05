@@ -1,0 +1,11 @@
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\HowManyWidgets\HowManyWidgets\bin\Debug\HowManyWidgets.exe
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\HowManyWidgets\HowManyWidgets\bin\Debug\HowManyWidgets.pdb
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\HowManyWidgets\HowManyWidgets\bin\Debug\HowManyWidgets.xml
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\HowManyWidgets\HowManyWidgets\obj\Debug\ResolveAssemblyReference.cache
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\HowManyWidgets\HowManyWidgets\obj\Debug\WindowsApplication1.frmHowManyWidgets.resources
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\HowManyWidgets\HowManyWidgets\obj\Debug\WindowsApplication1.Resources.resources
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\HowManyWidgets\HowManyWidgets\obj\Debug\HowManyWidgets.vbproj.GenerateResource.Cache
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\HowManyWidgets\HowManyWidgets\obj\Debug\HowManyWidgets.exe
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\HowManyWidgets\HowManyWidgets\obj\Debug\HowManyWidgets.xml
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\HowManyWidgets\HowManyWidgets\obj\Debug\HowManyWidgets.pdb
+C:\My Stuff\School\Visual Basic\Finished Labs and Homeworks\HowManyWidgets\HowManyWidgets\obj\Debug\WindowsApplication1.frmWelcome.resources

@@ -1,0 +1,26 @@
+{
+    "character" :
+    {
+        "name" :
+        {
+            "first" : "Allianth",
+            "last" : "Lotharian"
+        },
+        "gender" : "Male",
+        "age" : 32,
+        "race" : "Human",
+        "background" : "Like many people, Allianth was born.",
+        "abilityScores" :
+        {
+            "strength" : 14,
+            "dexterity" : 10,
+            "constitution" : 16,
+            "intelligence" : 10,
+            "wisdom" : 14,
+            "charisma" : 18
+        },
+        "alignment" : {"moral" : "Lawful", "ethical" : "Good"},
+        "occupation" : "Paladin",
+        "level" : 15
+    }
+}

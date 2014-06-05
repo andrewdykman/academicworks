@@ -1,0 +1,11 @@
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\PayrollCalculator1\bin\Debug\PayrollCalculator1.exe
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\PayrollCalculator1\bin\Debug\PayrollCalculator1.pdb
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\PayrollCalculator1\bin\Debug\PayrollCalculator1.xml
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\PayrollCalculator1\obj\Debug\ResolveAssemblyReference.cache
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\PayrollCalculator1\obj\Debug\PayrollCalculator.frmPayrollCalculator.resources
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\PayrollCalculator1\obj\Debug\PayrollCalculator.Resources.resources
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\PayrollCalculator1\obj\Debug\PayrollCalculator1.vbproj.GenerateResource.Cache
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\PayrollCalculator1\obj\Debug\PayrollCalculator1.exe
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\PayrollCalculator1\obj\Debug\PayrollCalculator1.xml
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\PayrollCalculator1\obj\Debug\PayrollCalculator1.pdb
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\PayrollCalculator1\obj\Debug\PayrollCalculator.frmSummary.resources

@@ -1,0 +1,10 @@
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\PopulationLab\bin\Debug\PopulationLab.exe
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\PopulationLab\bin\Debug\PopulationLab.pdb
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\PopulationLab\bin\Debug\PopulationLab.xml
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\PopulationLab\obj\Debug\ResolveAssemblyReference.cache
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\PopulationLab\obj\Debug\PopulationCalculator.Resources.resources
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\PopulationLab\obj\Debug\PopulationLab.vbproj.GenerateResource.Cache
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\PopulationLab\obj\Debug\PopulationLab.exe
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\PopulationLab\obj\Debug\PopulationLab.xml
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\PopulationLab\obj\Debug\PopulationLab.pdb
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\PopulationLab\obj\Debug\PopulationCalculator.frmPopluationLab.resources

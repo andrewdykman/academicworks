@@ -1,0 +1,116 @@
+<!-- Andrew Dykman, Project 1 - Client Side Scripting with "Evil" Eric -->
+
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- Craps game simulation. -->
+<html xmlns = "http://www.w3.org/1999/xhtml">
+   <head>
+      <title>Andrew Dykman, Project 1 for Client-Side Scripting - Program that Simulates the Game of Craps</title>
+      <style type = "text/css">
+         table   { text-align: right }
+         body    { font-family: arial, sans-serif }
+         div.red { color: red }
+      </style>
+      <script type = "text/javascript">
+
+// Beginning of Script
+
+// Declare Global Variables
+
+var gameStatus = 3;
+
+      </script>
+   </head>
+   <body>
+<h3>Andrew Dykman, Project 1 for Client-Side Scripting - Program that Simulates the Game of Craps</h3><br/>
+<!-- Roll 2 Dice and Display the Values in the Text Boxes and get the Sum / Display It -->
+
+<script type="text/javascript">
+
+// Beginning of Script
+
+// Function for Dice Rolling and Sum Totaling, Returns Sum Total of Dice Rolls
+
+function rollDice(sumtotal)
+{
+		var dieValue1;	
+		var dieValue1=Math.floor(Math.random()*6+1);
+		document.dice.roll1.value=dieValue1;
+                
+                var dieValue2;	
+		var dieValue2=Math.floor(Math.random()*6+1);
+		document.dice.roll2.value=dieValue2;
+
+		var sumtotal;
+		var sumtotal = dieValue1 + dieValue2;
+		document.dice.dicetotal.value=sumtotal;
+
+switch(sumtotal)
+{
+case 7:
+var gameStatus = 0;
+  break;
+case 11:
+var gameStatus = 0;
+  break;
+case 2:
+var gameStatus = 1;
+  break;
+case 12:
+var gameStatus = 1;
+  break;
+default:
+var gameStatus = 3;
+}
+
+switch(gameStatus)
+{
+case 0:
+document.getElementById('status').innerHTML = 'Player Wins. Click Roll Dice to play again.';
+  break;
+case 1:
+document.getElementById('status').innerHTML = 'Player Loses. Click Roll Dice to play again.';
+  break;
+default:
+document.getElementById('status').innerHTML = 'Roll Again.';
+}
+return sumtotal;
+}
+
+function play(sumtotal)
+{
+rollDice(sumtotal)
+return sumtotal;
+}
+
+// Determine the Outcome of the Game
+
+
+// End of Script
+
+</script>
+
+<!-- Display Everything in a Form -->
+
+      <form action = "" name="dice">
+         <table>
+         <caption>Craps</caption>
+         <tr><td>Dice 1</td>
+            <td><input type=text name="roll1"></td>
+				 </tr>
+         <tr><td>Dice 2</td>
+            <td><input type=text name="roll2"></td>
+				 </tr>
+         <tr><td>Sum</td>
+            <td><input type=text name="dicetotal"></td>
+				 </tr>
+         <tr><td /><td><input type = "button" value = "Roll Dice" onClick="rollDice()" /></td></tr>
+         </table>
+				 <br>
+      </form>
+<div id = "status" class = "red">
+            Click the Roll Dice button to play</div>
+   </body>
+</html>

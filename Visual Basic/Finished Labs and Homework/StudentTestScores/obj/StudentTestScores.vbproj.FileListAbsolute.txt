@@ -1,0 +1,10 @@
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\StudentTestScores\bin\Debug\StudentTestScores.exe
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\StudentTestScores\bin\Debug\StudentTestScores.pdb
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\StudentTestScores\bin\Debug\StudentTestScores.xml
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\StudentTestScores\obj\Debug\ResolveAssemblyReference.cache
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\StudentTestScores\obj\Debug\StudentTestScores.frmStudentTestScores.resources
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\StudentTestScores\obj\Debug\StudentTestScores.Resources.resources
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\StudentTestScores\obj\Debug\StudentTestScores.vbproj.GenerateResource.Cache
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\StudentTestScores\obj\Debug\StudentTestScores.exe
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\StudentTestScores\obj\Debug\StudentTestScores.xml
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\StudentTestScores\obj\Debug\StudentTestScores.pdb

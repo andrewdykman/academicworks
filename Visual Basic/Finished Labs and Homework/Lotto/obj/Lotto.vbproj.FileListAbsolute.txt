@@ -1,0 +1,3 @@
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\Lotto\obj\Debug\Lotto.exe
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\Lotto\obj\Debug\Lotto.xml
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\Lotto\obj\Debug\Lotto.pdb

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character>
+    <name>
+        <first>Welfman</first>
+        <last> </last>
+    </name>
+    <gender>Male</gender>
+    <age>62</age>
+    <race>Half-elf</race>
+    <background>Not much is known about this wanderer.</background>
+    <abilityScores>
+        <strength>10</strength>
+        <dexterity>17</dexterity>
+        <constitution>11</constitution>
+        <intelligence>10</intelligence>
+        <wisdom>8</wisdom>
+        <charisma>16</charisma>
+    </abilityScores>
+    <alignment>
+        <moral>Neutral</moral>
+        <ethical>Good</ethical>
+    </alignment>
+    <occupation>Rogue</occupation>
+    <level>14</level>
+    <skills/>
+    <feats/>
+</character>

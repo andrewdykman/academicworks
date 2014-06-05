@@ -1,0 +1,25 @@
+{
+    "character" :
+    {
+        "name" :
+        {
+            "first" : "Welfman"
+        },
+        "gender" : "Male",
+        "age" : 62,
+        "race" : "Half-elf",
+        "background" : "Not much is known about this wanderer.",
+        "abilityScores" :
+        {
+            "strength" : 10,
+            "dexterity" : 17,
+            "constitution" : 11,
+            "intelligence" : 10,
+            "wisdom" : 8,
+            "charisma" : 16
+        },
+        "alignment" : {"moral" : "Neutral", "ethical" : "Good"},
+        "occupation" : "Rogue",
+        "level" : 14
+    }
+}

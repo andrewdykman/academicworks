@@ -1,0 +1,298 @@
+<!-- Project 2 for Client-Side Scripting by Andrew Dykman -->
+<!-- Saturday Morning Class with "Evil" Eric -->
+<html>
+    <head>
+        <title>Newspaper Registration Form</title>
+        <link rel="stylesheet" href="registration.css" type="text/css" />
+        <script type="text/javascript">
+
+function checkForNumbers(blah){
+
+// Determine if Area Code Has Focus
+
+if (blah == "area"){
+
+// Validate Area Code
+
+if (isNaN(subscription.area.value))
+{ alert("Please enter a valid area code."); } 
+return;
+}
+
+if (blah == "exchange"){
+
+// Validate Phone Number Exchange Code
+
+if (isNaN(subscription.exchange.value))
+{ alert("Please enter a phone number exchange code."); } 
+return;
+}
+
+if (blah == "phone"){
+
+// Validate Phone Number
+
+if (isNaN(subscription.phone.value))
+{ alert("Please enter a valid phone number."); } 
+return;
+}
+
+}
+
+// Validate Password Fields
+
+function confirmPassword(selectedpasswordfield){
+
+// Validate Second Password Form Field Focus
+
+if (selectedpasswordfield == "passwordConfirm"){
+
+// Disallow Dissimilar Passwords
+
+if (subscription.password.value != subscription.passwordConfirm.value)
+{ alert("The passwords do not match."); } 
+return;
+}
+}
+
+// Uncheck Delivery Options if User Checks a Sunday Option
+
+function noDelivery(){
+ for(var i = 0; i < subscription.delivery.length; i++)
+        {
+            if( subscription.delivery[i].checked == true ) {  
+                subscription.delivery[i].checked = false;  
+            }  
+        } 
+}
+
+
+// Uncheck Sunday Option if User Checks a Day
+
+function noSunday(){
+ for(var i = 0; i < subscription.sunday.length; i++)
+        {
+            if( subscription.sunday[i].checked == true ) {  
+                subscription.sunday[i].checked = false;  
+            }  
+        } 
+}
+
+// Copy Form Field Values if User Checks Same Shipping Information
+
+function sameShippingInfo(){
+subscription.nameShipping.value = subscription.nameBilling.value;
+subscription.addressShipping.value = subscription.addressBilling.value;
+subscription.cityShipping.value = subscription.cityBilling.value;
+subscription.stateShipping.value = subscription.stateBilling.value;
+subscription.zipShipping.value = subscription.zipBilling.value;
+}
+
+// Confirm Submit Check Form Values for Blank Entries
+
+function confirmSubmit(){
+if (subscription.nameBilling.value == ""){
+alert("You did not enter a name in the Billing Information.");
+}
+if (subscription.nameShipping.value == ""){
+alert("You did not enter a name in the Shipping Information.");
+}
+if (subscription.addressBilling.value == ""){
+alert("You did not enter an address in the Billing Information.");
+}
+if (subscription.addressShipping.value == ""){
+alert("You did not enter an address in the Shipping Information.");
+}
+if (subscription.cityBilling.value == ""){
+alert("You did not enter a city in the Billing Information.");
+}
+if (subscription.cityShipping.value == ""){
+alert("You did not enter a city in the Shipping Information.");
+}
+if (subscription.stateBilling.value == ""){
+alert("You did not enter a state in the Billing Information.");
+}
+if (subscription.stateShipping.value == ""){
+alert("You did not enter a state in the Shipping Information.");
+}
+if (subscription.zipBilling.value == ""){
+alert("You did not enter a zip code in the Billing Information.");
+}
+if (subscription.zipShipping.value == ""){
+alert("You did not enter a zip code in the Shipping Information.");
+}
+if (subscription.zipShipping.value == ""){
+alert("You did not enter a zip code in the Shipping Information.");
+}
+if (subscription.area.value == ""){
+alert("You did not enter a phone number area code.");
+}
+if (subscription.exchange.value == ""){
+alert("You did not enter a phone number exchange code.");
+}
+if (subscription.phone.value == ""){
+alert("You did not enter a phone number.");
+}
+if (subscription.password.value == ""){
+alert("You did not enter a password.");
+}
+if (subscription.passwordConfirm.value == ""){
+alert("You did not confirm your password.");
+}
+var nothingchecked = 0;
+ for(var i = 0; i < subscription.sunday.length; i++)
+        {
+            if( subscription.sunday[i].checked == true ) {  
+                var nothingchecked = 1;  
+            }  
+        }
+for(var i = 0; i < subscription.sunday.length; i++)
+        {
+            if( subscription.delivery[i].checked == true ) {  
+                var nothingchecked = 1;  
+            }  
+        }
+if (nothingchecked == 0){
+alert("You did not select a delivery rate.");
+}
+}
+
+// Confirm to Reset the Form
+
+     function doReset(){
+      var formElements = document.subscription.elements;
+    for (var i = 0; i < formElements.length; i++) {
+        formElements[i].value = "";
+        subscription.reset.value = "Reset";
+        subscription.submit.value = "Subscribe";
+        if (formElements[i].checked) {
+            formElements[i].checked = false;
+        }
+    }
+}
+
+function confirmReset() {
+    if (window.confirm("Do you really want to reset the form?")) {
+        doReset();
+    }
+}
+
+        </script>
+    </head>
+    <body>
+        <h1>Newspaper Registration Form</h1>
+        <h2>Customer Information</h2>
+        <form action="" method="post" name="subscription" onsubmit="confirmSubmit();" onreset="confirmReset();">
+            <table border="0">
+                <tr>
+                    <td valign="top">
+                        <h3>Billing Information</h3>
+                        <p>
+                            Name<br />
+                            <input type="text" name="nameBilling" size="50" /><br/>
+                        </p>
+                        <p>
+                            Address<br />
+                            <input type="text" name="addressBilling" size="50" /><br />
+                        </p>
+                        <p>
+                            City, State, Zip<br />
+                            <input type="text" name="cityBilling" size="34" />
+                            <input type="text" name="stateBilling" size="2" maxlength="2" />
+                            <input type="text" name="zipBilling" size="10" maxlength="5" />
+                        </p>
+                        <p>
+                            <input type="checkbox"  onclick="sameShippingInfo();"/>Same Shipping information
+                        </p>
+                    </td>
+                    <td valign="top">
+                        <h3>Shipping Information</h3>
+                        <p>
+                            Name<br />
+                            <input type="text" name="nameShipping" size="50" /><br/>
+                        </p>
+                        <p>
+                            Address<br />
+                            <input type="text" name="addressShipping" size="50" /><br />
+                        </p>
+                        <p>
+                            City, State, Zip<br />
+                            <input type="text" name="cityShipping" size="34" />
+                            <input type="text" name="stateShipping" size="2" maxlength="2" />
+                            <input type="text" name="zipShipping" size="10" maxlength="5" />
+                        </p>
+                    </td>
+                </tr>
+            </table>
+            <p>Telephone</p>
+            <p>
+                <input type="text" name="area" size="3" maxlength="3" onChange="checkForNumbers(this.name);"/>
+                <input type="text" name="exchange" size="3" maxlength="3" onChange="checkForNumbers(this.name);" />
+                <input type="text" name="phone" size="4" maxlength="4" onChange="checkForNumbers(this.name);" />
+            </p>
+            <p>Enter a password to use to manage your account:</p>
+            <p><input type="password" name="password" size="50" onChange="confirmPassword(this.name);"/></p>
+            <p>Enter the password again to confrim it:</p>
+            <p><input type="password" name="passwordConfirm" size="50" onChange="confirmPassword(this.name);"/></p>
+            <h3>Delivery Rates</h3>
+            <table border="0">
+                <colgroup align="left" width="100" />
+                <colgroup span="4" align="center" width="100" />
+                <tr>
+                    <th>&nbsp;</th>
+                    <th>4 Weeks</th>
+                    <th>13 Weeks</th>
+                    <th>26 Weeks</th>
+                    <th>52 Weeks</th>
+                </tr>
+                <tr>
+                    <td><strong>Mon-Sat</strong></td>
+                    <td>
+                        <input type="radio" name="delivery" value="12.60" onclick="noSunday();"/>$12.60
+                    </td>
+                    <td>
+                        <input type="radio" name="delivery" value="40.95" onclick="noSunday();"/>$40.95
+                    </td>
+                    <td>
+                        <input type="radio" name="delivery" value="81.90" onclick="noSunday();"/>$81.90
+                    </td>
+                    <td>
+                        <input type="radio" name="delivery" value="156.00" onclick="noSunday();"/>$156.00
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Every Day</strong></td>
+                    <td>
+                        <input type="radio" name="delivery" value="13.56" onclick="noSunday();"/>$13.56
+                    </td>
+                    <td>
+                        <input type="radio" name="delivery" value="44.07" onclick="noSunday();"/>$44.07
+                    </td>
+                    <td>
+                        <input type="radio" name="delivery" value="88.14" onclick="noSunday();"/>$88.14
+                    </td>
+                    <td>
+                        <input type="radio" name="delivery" value="159.74" onclick="noSunday();"/>$159.74
+                    </td>
+                </tr>
+            </table>
+            <p>
+                <strong>Sundays Only</strong>
+                <input type="radio" name="sunday" value="weekly" onclick="noDelivery();"/>Bill Me Weekly
+                <input type="radio" name="sunday" value="monthly" onclick="noDelivery();"/>Bill Me Monthly
+            </p>
+            <p>Do you subscribe to any other newspapers?</p>
+            <p>
+                <input type="checkbox" name="newspapers" value="nytimes" />New York Times<br />
+                <input type="checkbox" name="newspapers" value="bostonglobe" />Boston Globe<br />
+                <input type="checkbox" name="newspapers" value="sfchronicle" />San Francisco Chronicle<br />
+                <input type="checkbox" name="newspapers" value="latimes" />Los Angeles Times<br />
+                <input type="checkbox" name="newspapers" value="other" />Other<br />
+            </p>
+            <p>
+                <input type="submit" value="Subscribe" name = "submit" style="color:#ff0000; font-weight: bold;" />
+                <input type="reset" value="Reset" name="reset" style="color: #ff0000; font-weight: bold;" />
+            </p>
+        </form>
+    </body>
+</html>

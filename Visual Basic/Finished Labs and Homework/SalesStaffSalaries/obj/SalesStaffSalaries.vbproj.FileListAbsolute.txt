@@ -1,0 +1,13 @@
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\SalesStaffSalaries\bin\Debug\SalesStaffSalaries.exe
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\SalesStaffSalaries\bin\Debug\SalesStaffSalaries.pdb
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\SalesStaffSalaries\bin\Debug\SalesStaffSalaries.xml
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\SalesStaffSalaries\obj\Debug\ResolveAssemblyReference.cache
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\SalesStaffSalaries\obj\Debug\SalesStaffSalaries.frmSalesStaffSalaries.resources
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\SalesStaffSalaries\obj\Debug\SalesStaffSalaries.frmSelectingSalesStaff.resources
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\SalesStaffSalaries\obj\Debug\SalesStaffSalaries.Resources.resources
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\SalesStaffSalaries\obj\Debug\SalesStaffSalaries.vbproj.GenerateResource.Cache
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\SalesStaffSalaries\obj\Debug\SalesStaffSalaries.exe
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\SalesStaffSalaries\obj\Debug\SalesStaffSalaries.xml
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\SalesStaffSalaries\obj\Debug\SalesStaffSalaries.pdb
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\SalesStaffSalaries\bin\Debug\Company.mdb
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\SalesStaffSalaries\bin\Debug\SalesStaffSalaries.exe.config

@@ -1,0 +1,11 @@
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\Conference Registration System\bin\Debug\Conference Registration System.exe
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\Conference Registration System\bin\Debug\Conference Registration System.pdb
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\Conference Registration System\bin\Debug\Conference Registration System.xml
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\Conference Registration System\obj\Debug\ResolveAssemblyReference.cache
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\Conference Registration System\obj\Debug\WindowsApplication1.Resources.resources
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\Conference Registration System\obj\Debug\Conference Registration System.vbproj.GenerateResource.Cache
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\Conference Registration System\obj\Debug\Conference Registration System.exe
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\Conference Registration System\obj\Debug\Conference Registration System.xml
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\Conference Registration System\obj\Debug\Conference Registration System.pdb
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\Conference Registration System\obj\Debug\WindowsApplication1.frmMain.resources
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\Conference Registration System\obj\Debug\WindowsApplication1.frmOptions.resources

@@ -1,0 +1,197 @@
+<!-- Andrew Dykman, Project 3 Client-Side Scripting with "Evil" Eric. -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<head>
+<script type="text/javascript">
+function setInterval(){
+setTimeout('updateSprite()', moveSpeed[1]);
+}
+
+// Declare Arrays
+
+var xNameDirection=new Array();
+var yNameDirection=new Array();
+var xDirection=new Array();
+var yDirection=new Array();
+var xPosition=new Array();
+var yPosition=new Array();
+var moveSpeed=new Array();
+
+// Init Vars
+
+xNameDirection[1] = "right";
+yNameDirection[1] = "down";
+xNameDirection[2] = "left";
+yNameDirection[2] = "up";
+xNameDirection[3] = "right";
+yNameDirection[3] = "up";
+xNameDirection[4] = "left";
+yNameDirection[4] = "down";
+xNameDirection[5] = "left";
+yNameDirection[5] = "up";
+xNameDirection[6] = "right";
+yNameDirection[6] = "down";
+if (xNameDirection[1] == "right") xDirection[1]="++";
+if (xNameDirection[1] == "left") xDirection[1]="--";
+if (xNameDirection[2] == "right") xDirection[2]="++";
+if (xNameDirection[2] == "left") xDirection[2]="--";
+if (yNameDirection[1] == "down") yDirection[1]="++";
+if (yNameDirection[1] == "up") yDirection[1]="--";
+if (yNameDirection[2] == "down") yDirection[2]="++";
+if (yNameDirection[2] == "up") yDirection[2]="--";
+if (xNameDirection[3] == "right") xDirection[3]="++";
+if (xNameDirection[3] == "left") xDirection[3]="--";
+if (xNameDirection[4] == "right") xDirection[4]="++";
+if (xNameDirection[4] == "left") xDirection[4]="--";
+if (yNameDirection[3] == "down") yDirection[3]="++";
+if (yNameDirection[3] == "up") yDirection[3]="--";
+if (yNameDirection[4] == "down") yDirection[4]="++";
+if (yNameDirection[4] == "up") yDirection[4]="--";
+if (xNameDirection[5] == "right") xDirection[5]="++";
+if (xNameDirection[5] == "left") xDirection[5]="--";
+if (xNameDirection[6] == "right") xDirection[6]="++";
+if (xNameDirection[6] == "left") xDirection[6]="--";
+if (yNameDirection[5] == "down") yDirection[5]="++";
+if (yNameDirection[5] == "up") yDirection[5]="--";
+if (yNameDirection[6] == "down") yDirection[6]="++";
+if (yNameDirection[6] == "up") yDirection[6]="--";
+
+
+xPosition[1]="-500";
+yPosition[1]="-500";
+xPosition[2]="-250";
+yPosition[2]="-250";
+xPosition[3]="-350";
+yPosition[3]="-350";
+xPosition[4]="-175";
+yPosition[4]="-175";
+xPosition[5]="-250";
+yPosition[5]="-150";
+xPosition[6]="-275";
+yPosition[6]="-100";
+moveSpeed[1]="5";
+moveSpeed[2]="5";
+moveSpeed[3]="5";
+moveSpeed[4]="5";
+moveSpeed[5]="5";
+moveSpeed[6]="5";
+yMoveDirection1 = yDirection[1];
+xMoveDirection1 = xDirection[1];
+yMoveDirection2 = yDirection[2];
+xMoveDirection2 = xDirection[2];
+yMoveDirection3 = yDirection[3];
+xMoveDirection3 = xDirection[3];
+yMoveDirection4 = yDirection[4];
+xMoveDirection4 = xDirection[4];
+yMoveDirection5 = yDirection[5];
+xMoveDirection5 = xDirection[5];
+yMoveDirection6 = yDirection[6];
+xMoveDirection6 = xDirection[6];
+
+// Function updateSprite calculates updates the images location
+
+function updateSprite() {
+  
+// Set the maximum area to include the size of the images
+
+  var topMargin1 = 0;
+  var heightMax1 = document.documentElement.clientHeight - document.getElementById('bouncingImage1').height;
+  var leftMargin1 = 0;
+  var widthMax1 = document.documentElement.clientWidth - document.getElementById('bouncingImage1').width;
+  var topMargin2 = 0;
+  var heightMax2 = document.documentElement.clientHeight - document.getElementById('bouncingImage2').height;
+  var leftMargin2 = 0;
+  var widthMax2 = document.documentElement.clientWidth - document.getElementById('bouncingImage2').width;
+  var topMargin3 = 0;
+  var heightMax3 = document.documentElement.clientHeight - document.getElementById('bouncingImage3').height;
+  var leftMargin3 = 0;
+  var widthMax3 = document.documentElement.clientWidth - document.getElementById('bouncingImage3').width;
+  var topMargin4 = 0;
+  var heightMax4 = document.documentElement.clientHeight - document.getElementById('bouncingImage4').height;
+  var leftMargin4 = 0;
+  var widthMax4 = document.documentElement.clientWidth - document.getElementById('bouncingImage4').width;
+  var topMargin5 = 0;
+  var heightMax5 = document.documentElement.clientHeight - document.getElementById('bouncingImage5').height;
+  var leftMargin5 = 0;
+  var widthMax5 = document.documentElement.clientWidth - document.getElementById('bouncingImage5').width;
+  var topMargin6 = 0;
+  var heightMax6 = document.documentElement.clientHeight - document.getElementById('bouncingImage6').height;
+  var leftMargin6 = 0;
+  var widthMax6 = document.documentElement.clientWidth - document.getElementById('bouncingImage6').width;
+  
+  // Evaluate new positional coordinates
+    
+  eval('xPosition[1]'+xMoveDirection1);
+  eval('yPosition[1]'+yMoveDirection1);
+  eval('xPosition[2]'+xMoveDirection2);
+  eval('yPosition[2]'+yMoveDirection2);
+  eval('xPosition[3]'+xMoveDirection3);
+  eval('yPosition[3]'+yMoveDirection3);
+  eval('xPosition[4]'+xMoveDirection4);
+  eval('yPosition[4]'+yMoveDirection4);
+  eval('xPosition[5]'+xMoveDirection5);
+  eval('yPosition[5]'+yMoveDirection5);
+  eval('xPosition[6]'+xMoveDirection6);
+  eval('yPosition[6]'+yMoveDirection6);
+  
+  var top1 = yPosition[1]+document.documentElement.clientHeight;
+  var left1 = xPosition[1]+document.documentElement.clientWidth;
+  var top2 = yPosition[2]+document.documentElement.clientHeight;
+  var left2 = xPosition[2]+document.documentElement.clientWidth;
+  var top3 = yPosition[3]+document.documentElement.clientHeight;
+  var left3 = xPosition[3]+document.documentElement.clientWidth;
+  var top4 = yPosition[4]+document.documentElement.clientHeight;
+  var left4 = xPosition[4]+document.documentElement.clientWidth;
+  var top5 = yPosition[5]+document.documentElement.clientHeight;
+  var left5 = xPosition[5]+document.documentElement.clientWidth;
+  var top6 = yPosition[6]+document.documentElement.clientHeight;
+  var left6 = xPosition[6]+document.documentElement.clientWidth;
+  
+  document.getElementById('bouncingImage1').style.left = left1+'px';
+  document.getElementById('bouncingImage1').style.top = top1+'px';
+  document.getElementById('bouncingImage2').style.left = left2+'px';
+  document.getElementById('bouncingImage2').style.top = top2+'px';
+  document.getElementById('bouncingImage3').style.left = left3+'px';
+  document.getElementById('bouncingImage3').style.top = top3+'px';
+  document.getElementById('bouncingImage4').style.left = left4+'px';
+  document.getElementById('bouncingImage4').style.top = top4+'px';
+  document.getElementById('bouncingImage5').style.left = left5+'px';
+  document.getElementById('bouncingImage5').style.top = top5+'px';
+  document.getElementById('bouncingImage6').style.left = left6+'px';
+  document.getElementById('bouncingImage6').style.top = top6+'px';
+  if (top1 <= topMargin1) yMoveDirection1 = '++';
+  if (top1 >= heightMax1) yMoveDirection1 = '--';
+  if (left1 >= widthMax1) xMoveDirection1 = '--';
+  if (left1 <= leftMargin1) xMoveDirection1 = '++';
+  if (top2 <= topMargin2) yMoveDirection2 = '++';
+  if (top2 >= heightMax2) yMoveDirection2 = '--';
+  if (left2 >= widthMax2) xMoveDirection2 = '--';
+  if (left2 <= leftMargin2) xMoveDirection2 = '++';
+  if (top3 <= topMargin3) yMoveDirection3 = '++';
+  if (top3 >= heightMax3) yMoveDirection3 = '--';
+  if (left3 >= widthMax3) xMoveDirection3 = '--';
+  if (left3 <= leftMargin3) xMoveDirection3 = '++';
+  if (top4 <= topMargin4) yMoveDirection4 = '++';
+  if (top4 >= heightMax4) yMoveDirection4 = '--';
+  if (left4 >= widthMax4) xMoveDirection4 = '--';
+  if (left4 <= leftMargin4) xMoveDirection4 = '++';
+  if (top5 <= topMargin5) yMoveDirection5 = '++';
+  if (top5 >= heightMax5) yMoveDirection5 = '--';
+  if (left5 >= widthMax5) xMoveDirection5 = '--';
+  if (left5 <= leftMargin5) xMoveDirection5 = '++';
+  if (top6 <= topMargin6) yMoveDirection6 = '++';
+  if (top6 >= heightMax6) yMoveDirection6 = '--';
+  if (left6 >= widthMax6) xMoveDirection6 = '--';
+  if (left6 <= leftMargin6) xMoveDirection6 = '++';
+  setTimeout('updateSprite()', moveSpeed[1]);
+}
+</script>
+
+</head>
+<body OnLoad="updateSprite()">
+
+<img src="image1.jpg" id="bouncingImage1" style="position:absolute;" alt="Evil Eric!" />
+<img src="image2.jpg" id="bouncingImage2" style="position:absolute;" alt="Evil Eric!" />
+<img src="image3.jpg" id="bouncingImage3" style="position:absolute;" alt="Evil Eric!" />
+<img src="image4.jpg" id="bouncingImage4" style="position:absolute;" alt="Evil Eric!" />
+<img src="image5.jpg" id="bouncingImage5" style="position:absolute;" alt="Evil Eric!" />
+<img src="image6.jpg" id="bouncingImage6" style="position:absolute;" alt="Evil Eric!" />

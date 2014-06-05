@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Character Sheets</title>
+        <style type="text/css">
+            .oneline {
+                display: inline;
+            }
+            
+            #mainContent {
+                width: 400px;
+            }
+        </style>
+        <script type="text/javascript" src="charsheet.js"></script>
+    </head>
+    <body>
+        <form onsubmit="return false;">
+            <select name="character">
+                <option onclick="character('character1');">character 1</option>
+                <option onclick="character('character2');">character 2</option>
+            </select>
+            <fieldset id="mainContent">
+                <legend>Character Sheet</legend>
+                First: <input type="text" id = "firstName" value="First Name" />
+                Last: <input type="text" id = "lastName" value="Last Name" />
+            
+                <div id="characterInfo">
+                    <div class="oneline" id="age">age</div>
+                    <div class="oneline" id="race">race</div>
+                    <div class="oneline" id="gender">gender</div>
+                    <div class="oneline" id="level">level</div>
+                    <div class="oneline" id="occupation">occupation</div>
+                    <p id="alignment">Alignment</p>
+                    <p id="backgroundInfo">Background text goes here<p>
+                </div>
+                <fieldset>
+                    <legend>Attributes</legend>
+                    <table>
+                        <tr>
+                            <td id="strName">Str:</td>
+                            <td id="strScore">0</td>
+                        </tr>
+                        
+                        <tr>
+                            <td id="dexName">Dex:</td>
+                            <td id="dexScore">0</td>
+                        </tr>
+                        
+                        <tr>
+                            <td id="conName">Con:</td>
+                            <td id="conScore">0</td>
+                        </tr>
+                        
+                        <tr>
+                            <td id="intName">Int:</td>
+                            <td id="intScore">0</td>
+                        </tr>
+                        
+                        <tr>
+                            <td id="wisName">Wis:</td>
+                            <td id="wisScore">0</td>
+                        </tr>
+                        
+                        <tr>
+                            <td id="chaName">Cha:</td>
+                            <td id="chaScore">0</td>
+                        </tr>
+                    </table>
+                </fieldset>
+                
+            </fieldset>
+        </form>
+    </body>
+</html>

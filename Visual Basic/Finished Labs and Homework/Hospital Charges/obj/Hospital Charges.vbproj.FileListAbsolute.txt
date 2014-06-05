@@ -1,0 +1,10 @@
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\Hospital Charges\bin\Debug\Hospital Charges.exe
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\Hospital Charges\bin\Debug\Hospital Charges.pdb
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\Hospital Charges\bin\Debug\Hospital Charges.xml
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\Hospital Charges\obj\Debug\ResolveAssemblyReference.cache
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\Hospital Charges\obj\Debug\Hospital_Charges.frmHospitalCharges.resources
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\Hospital Charges\obj\Debug\Hospital_Charges.Resources.resources
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\Hospital Charges\obj\Debug\Hospital Charges.vbproj.GenerateResource.Cache
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\Hospital Charges\obj\Debug\Hospital Charges.exe
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\Hospital Charges\obj\Debug\Hospital Charges.xml
+C:\My Stuff\School\Visual Basic\Finished Labs and Homework\Hospital Charges\obj\Debug\Hospital Charges.pdb
